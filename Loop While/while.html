@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VÒNG LẶP WHILE</title>
+</head>
+
+<body>
+    <p> bài 1</p>
+    <script>
+        let num = parseInt(prompt("Enter a number: "));
+        let total = 0;
+        while (num != -1) {
+            num = parseInt(prompt("Enter a number:"));
+
+            alert("Số bạn nhập là:" + num);
+            total = total + num;
+
+        }
+        alert("tổng là:" + total);
+    </script>
+    <p> bài 2</p>
+    <script>
+        let i = 1;
+        while (i < 100) {
+            document.write("<hr width=" + i + "%>");
+            i++;
+
+
+        }
+    </script>
+</body>
+
+</html>
