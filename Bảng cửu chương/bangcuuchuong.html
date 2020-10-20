@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BẢNG CỬU CHƯƠNG</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Bảng Cửu Chương</h1>
+    <script>
+        let scout;
+        scout = "<table border='1' width='600' cellspacing='0' cellpadding='4' >";
+        for (i = 1; i <= 9; i++) {
+            scout += "<tr>";
+            for (j = 2; j <= 9; j++) {
+                scout += "<td>" + j + "x" + i + "=" + j * i + "</td>";
+
+            }
+            scout += "</tr>";
+
+
+        }
+        scout += "</table>"
+        document.write(scout);
+    </script>
+
+</body>
+
+</html>
