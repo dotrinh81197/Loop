@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUYỆN TẬP VÒNG LẶP 02</title>
+</head>
+
+<body>
+    <h3>Bài 1</h3>
+    <input type="button" value="Dãy Fibonnaci" onclick="Fib()" />
+    <p id="demo1"></p>
+
+    <h3>Bài 2: Giai thừa của một số nguyên dương</h3>
+    <input type="button" value="Tính giai thừa " onclick="giaithua()" />
+    <p id="demo2"></p>
+
+    <h3>Bài 3 In tam giác vuông. Các góc vuông nằm ở các vị trí khác nhau</h3>
+    <input type="button" value="Print1" onclick="print1()" />
+
+    <input type="button" value="Print2" onclick="print2()" />
+
+    <input type="button" value="Print3" onclick="print3()" />
+
+    <input type="button" value="Print4" onclick="print4()" />
+
+    <h3>Bài 4: In hình chữ nhật</h3>
+    <input type="button" value="Print5" onclick="print5()" />
+    <h3>Bài 5: Tính lãi ngân hàng</h3>
+    <input type="number" value="" id="money" placeholder="Số tiền vay" />
+    <select name="month" id="month">
+      <optgroup label="Tháng">
+        <option value="1">1 Tháng</option>
+        <option value="2">2 Tháng</option>
+        <option value="3">3 Tháng</option>
+        <option value="4">4 Tháng</option>
+        <option value="5">5 Tháng</option>
+        <option value="6">6 Tháng</option>
+        <option value="7">7 Tháng</option>
+        <option value="8">8 Tháng</option>
+        <option value="9">9 Tháng</option>
+        <option value="10">10 Tháng</option>
+        <option value="11">11 Tháng</option>
+        <option value="12">12 Tháng</option>
+        <option value="24">24 Tháng</option>
+        <option value="36">36 Tháng</option>
+      </optgroup>
+    </select>
+    <input type="number" value="" id="rate" placeholder="Lãi suất vay (%)" />
+    <input type="button" value="Tính tiền" onclick="bill()" />
+</body>
+<script src="loop2.js"></script>
+
+</html>
